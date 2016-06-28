@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A0E03181D233EAB0093780D /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0E03171D233EAB0093780D /* CustomTableViewCell.swift */; };
 		9A94857F1D23367D00F68A3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A94857E1D23367D00F68A3C /* AppDelegate.swift */; };
 		9A9485811D23367D00F68A3C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9485801D23367D00F68A3C /* ViewController.swift */; };
 		9A9485841D23367D00F68A3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A9485821D23367D00F68A3C /* Main.storyboard */; };
@@ -14,6 +15,10 @@
 		9A9485891D23367D00F68A3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A9485871D23367D00F68A3C /* LaunchScreen.storyboard */; };
 		9A9485941D23367D00F68A3C /* WetherTableViewSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9485931D23367D00F68A3C /* WetherTableViewSampleTests.swift */; };
 		9A94859F1D23367D00F68A3C /* WetherTableViewSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A94859E1D23367D00F68A3C /* WetherTableViewSampleUITests.swift */; };
+		9A9485B01D23371A00F68A3C /* tenki_hare.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A9485AC1D23371A00F68A3C /* tenki_hare.png */; };
+		9A9485B11D23371A00F68A3C /* tenki_kumori.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A9485AD1D23371A00F68A3C /* tenki_kumori.png */; };
+		9A9485B21D23371A00F68A3C /* tenki_snow.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A9485AE1D23371A00F68A3C /* tenki_snow.png */; };
+		9A9485B31D23371A00F68A3C /* tenki_umbrella.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A9485AF1D23371A00F68A3C /* tenki_umbrella.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9A0E03171D233EAB0093780D /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		9A94857B1D23367D00F68A3C /* WetherTableViewSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WetherTableViewSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A94857E1D23367D00F68A3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9A9485801D23367D00F68A3C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +53,10 @@
 		9A94859A1D23367D00F68A3C /* WetherTableViewSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WetherTableViewSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A94859E1D23367D00F68A3C /* WetherTableViewSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WetherTableViewSampleUITests.swift; sourceTree = "<group>"; };
 		9A9485A01D23367D00F68A3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A9485AC1D23371A00F68A3C /* tenki_hare.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tenki_hare.png; sourceTree = "<group>"; };
+		9A9485AD1D23371A00F68A3C /* tenki_kumori.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tenki_kumori.png; sourceTree = "<group>"; };
+		9A9485AE1D23371A00F68A3C /* tenki_snow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tenki_snow.png; sourceTree = "<group>"; };
+		9A9485AF1D23371A00F68A3C /* tenki_umbrella.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tenki_umbrella.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +113,11 @@
 				9A9485851D23367D00F68A3C /* Assets.xcassets */,
 				9A9485871D23367D00F68A3C /* LaunchScreen.storyboard */,
 				9A94858A1D23367D00F68A3C /* Info.plist */,
+				9A9485AC1D23371A00F68A3C /* tenki_hare.png */,
+				9A9485AD1D23371A00F68A3C /* tenki_kumori.png */,
+				9A9485AE1D23371A00F68A3C /* tenki_snow.png */,
+				9A9485AF1D23371A00F68A3C /* tenki_umbrella.png */,
+				9A0E03171D233EAB0093780D /* CustomTableViewCell.swift */,
 			);
 			path = WetherTableViewSample;
 			sourceTree = "<group>";
@@ -234,7 +249,11 @@
 			files = (
 				9A9485891D23367D00F68A3C /* LaunchScreen.storyboard in Resources */,
 				9A9485861D23367D00F68A3C /* Assets.xcassets in Resources */,
+				9A9485B31D23371A00F68A3C /* tenki_umbrella.png in Resources */,
+				9A9485B11D23371A00F68A3C /* tenki_kumori.png in Resources */,
 				9A9485841D23367D00F68A3C /* Main.storyboard in Resources */,
+				9A9485B21D23371A00F68A3C /* tenki_snow.png in Resources */,
+				9A9485B01D23371A00F68A3C /* tenki_hare.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A0E03181D233EAB0093780D /* CustomTableViewCell.swift in Sources */,
 				9A9485811D23367D00F68A3C /* ViewController.swift in Sources */,
 				9A94857F1D23367D00F68A3C /* AppDelegate.swift in Sources */,
 			);
@@ -402,10 +422,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = WetherTableViewSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.co.ikkitakahashi.WetherTableViewSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -413,10 +436,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = WetherTableViewSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.co.ikkitakahashi.WetherTableViewSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -485,6 +511,7 @@
 				9A9485A51D23367D00F68A3C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9A9485A61D23367D00F68A3C /* Build configuration list for PBXNativeTarget "WetherTableViewSampleTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +520,7 @@
 				9A9485A81D23367D00F68A3C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9A9485A91D23367D00F68A3C /* Build configuration list for PBXNativeTarget "WetherTableViewSampleUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +529,7 @@
 				9A9485AB1D23367D00F68A3C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
